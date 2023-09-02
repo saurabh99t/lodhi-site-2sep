@@ -4,10 +4,11 @@
 body, h2, form {
     margin: 0;
     padding: 0;
+    background-color: white;
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 /* Styling for the outer container */
@@ -46,6 +47,13 @@ label {
     margin-bottom: 8px; /* Space between label and input */
     font-weight: bold; /* Make labels bold */
     color: #555; /* Dark grey color for labels */
+    
+}
+
+
+.contact-form-x11 label{
+font-size: 15px;
+
 }
 
 input[type="text"], input[type="email"], textarea {

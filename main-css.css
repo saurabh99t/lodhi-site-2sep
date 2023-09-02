@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: white;
     
 
 }
@@ -14,7 +15,7 @@ body {
 }
 
 .carousel-item {
-    height: 90vh;
+    /* height: 90vh; */
 }
 
 
@@ -76,18 +77,23 @@ padding: 2px;
 /* our services */
 
 .container-x5 {
-    height: 30vh;
+    /* height: 30vh;     */
 }
 
 .heading-x5 {
     text-align: center;
     font-size: 20px;
+    background-color: white;
 }
 
 
 
 /* our services */
 
+.heading-x5 h1 {
+    padding: 30px;
+
+}
 
 
 
@@ -96,10 +102,11 @@ padding: 2px;
 .banner {
     text-align: center;
     font-size: 30px;
-
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .banner p {
+    width: 100vw;
     background-color: cyan;
     padding: 20px;
 }

@@ -4,16 +4,17 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: 'Poppins', sans-serif;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 body{
 min-height: 100vh;
 display: flex;
+background-color: white;
 align-items: center;
 }
 .wrapper{
 width: 100%;
-background-color: black;
+background-color: rgba(0, 0, 0, 0.879);
 height: 60vh;
 display: flex;
 justify-content: center;
