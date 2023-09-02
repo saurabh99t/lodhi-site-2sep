@@ -16,8 +16,9 @@ body {
     color: #fff;
   }
   .section-1-x3 {
-    background-color: #3498db;
+    background-color: #ffffff;
+    border: 1px solid black;
   }
   .section-2-x3 {
-    background-color: #e74c3c;
+    background-color: #ffffff;
   }
