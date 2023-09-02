@@ -1,0 +1,91 @@
+
+     
+/* Resetting some default browser styling for a consistent look */
+body, h2, form {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Styling for the outer container */
+.outer-container-x11 {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #f9f9f9;  /* Added a slight background color for contrast */
+}
+
+/* Styling for the inner sections */
+.inner-section-x11 {
+    flex: 1;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    background-color: white; /* Make the inner sections pop out */
+    border-radius: 10px;
+    margin: 10px; /* Added spacing between sections */
+}
+
+/* Styling for the contact form */
+.contact-form-x11 {
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px; /* Space between title and content */
+    color: #333; /* Dark color for emphasis */
+}
+
+label {
+    display: block;
+    margin-bottom: 8px; /* Space between label and input */
+    font-weight: bold; /* Make labels bold */
+    color: #555; /* Dark grey color for labels */
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%; /* Full width inputs */
+    padding: 10px;
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 5px; /* Rounded corners */
+    margin-bottom: 20px; /* Space between each input */
+}
+
+input[type="submit"] {
+    background-color: #007BFF; /* Blue color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transition for hover effect */
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3; /* Darken on hover */
+}
+
+/* Styling for the map container */
+.map-container-x11 {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .map-container-x11 {
+        height: 200px;
+    }
+
+    .outer-container-x11 {
+        padding: 20px; /* Reduce padding on smaller screens */
+        flex-direction: column;
+    }
+}

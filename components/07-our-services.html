@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .outer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .inner-section {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+    box-sizing: border-box;
+    color: #fff;
+  }
+  .section-1 {
+    background-color: #3498db;
+  }
+  .section-2 {
+    background-color: #e74c3c;
+  }
+</style>
+<title>Responsive Container</title>
+</head>
+<body>
+  <div class="outer-container">
+    <div class="inner-section section-1">
+      <h2>Inner Section 1</h2>
+      <p>This is some sample content for inner section 1.</p>
+    </div>
+    <div class="inner-section section-2">
+      <h2>Inner Section 2</h2>
+      <p>This is some sample content for inner section 2.</p>
+    </div>
+  </div>
+</body>
+</html>

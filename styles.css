@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .container-x1 {
+    /* display: flex;
+    flex-wrap: wrap; */
+    justify-content: space-between;
+    /* padding: 20px; */
+    background-color: #f0f0f0;
+  }
+  
+  .section-x1 {
+    flex: 1;
+    /* min-width: calc(20% - 20px); Adjust as needed for spacing */
+    /* margin: 2px;
+    padding: 20px; */
+    /* background-color: #ffbfbf; */
+    /* border-radius: 8px; */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+  }
+  
