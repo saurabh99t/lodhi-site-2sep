@@ -12,11 +12,7 @@
 	box-sizing: border-box;
 }
 
-body {
-	min-height: 100vh;
-	/* background-color: #fafafa; */
-	background-color: white;
-}
+
 
 .container-x9 {
 	max-width: 100rem;

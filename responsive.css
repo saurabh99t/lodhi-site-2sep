@@ -28,6 +28,9 @@
     .outer-container-x11 {
      
     }
+    .inner-sec1-image img  {
+        width: 100% !important;
+    }
 }
 
 

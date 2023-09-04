@@ -1,15 +1,4 @@
 
-     
-/* Resetting some default browser styling for a consistent look */
-body, h2, form {
-    margin: 0;
-    padding: 0;
-    background-color: white;
-}
-
-body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 /* Styling for the outer container */
 .outer-container-x11 {
@@ -93,7 +82,7 @@ input[type="submit"]:hover {
     }
 
     .outer-container-x11 {
-        padding: 20px; /* Reduce padding on smaller screens */
+        /* padding: 20px; Reduce padding on smaller screens */
         flex-direction: column;
     }
 }
