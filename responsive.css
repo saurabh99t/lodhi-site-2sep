@@ -10,7 +10,24 @@
 
 
 @media (max-width:768px) {
-    
+    .outer-container-x3 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container-x13 {
+        width: 100vw !important;
+    }
+
+    .gallery-x9 {
+        margin: 0 auto;
+    }
+
+    .outer-container-x11 {
+     
+    }
 }
 
 

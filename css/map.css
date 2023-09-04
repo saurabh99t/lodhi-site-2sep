@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 40px;
+    /* padding: 40px; */
     background-color: #f9f9f9;  /* Added a slight background color for contrast */
 }
 
@@ -24,10 +24,10 @@ body {
 .inner-section-x11 {
     flex: 1;
     padding: 20px;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    /* box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1); Subtle shadow for depth */
     background-color: white; /* Make the inner sections pop out */
     border-radius: 10px;
-    margin: 10px; /* Added spacing between sections */
+    /* margin: 10px; Added spacing between sections */
 }
 
 /* Styling for the contact form */
